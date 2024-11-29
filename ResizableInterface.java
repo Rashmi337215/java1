@@ -18,6 +18,9 @@ class Rectangle implements Resizable{
 
 public class ResizableInterface {
 	public static void main(String[] args) {
+		String title0="Lag 7 program-Resizable Interface";
+		String title1="Develop a Java program to create an interface Resizable with methods resizeWidth(int width) and resizeHeight(int height) that allow an object to be resized";
+		String title2="Create a class Rectanglethat implements the Resizable interface and implements the resize methods";
 		Rectangle r1=new Rectangle(5,10);		
 		System.out.println("\nOriginal Rectangle: ");
 		r1.display();				
